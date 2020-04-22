@@ -47,7 +47,7 @@ options(width = 150)
 # Introduction
 
 `{ctrer}` provides header files for [Hana Dusíková](https://github.com/hanickadot)'s
-[Compile time regular expressions](https://github.com/hanickadot/compile-time-regular-expressions), a "Compile time PCRE (almost) compatible regular expression matcher" using C++17.
+[Compile time regular expressions](https://github.com/hanickadot/compile-time-regular-expressions), a "Compile time PCRE (almost) compatible regular expression matcher" using C++(>=)17.
 
 
 
