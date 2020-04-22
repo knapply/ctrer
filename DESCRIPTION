@@ -1,0 +1,37 @@
+Package: ctrer
+Title: Compile Time Regular Expressions for R
+Version: 0.0.9
+Authors@R: 
+    c(
+        person("Brendan", "Knapp", 
+               email = "brendan.knapp@nps.edu", 
+               role = c("aut", "cre"),
+               comment = c(ORCID = "0000-0003-3284-4972"))
+        ,
+        person("Hana", "Dusíková",
+               role = "cph",
+               comment = "compile-time-regular-expressions library")
+    )
+Description: Provides header files for [Hana Dusíková](https://github.com/hanickadot)'s 
+    [Compile time regular expressions](https://github.com/hanickadot/compile-time-regular-expressions).
+License: GPL-3 + file LICENSE
+URL: https://github.com/knapply/ctrer, https://knapply.github.io/ctrer
+BugReports: https://github.com/knapply/ctrer/issues
+Encoding: UTF-8
+LazyData: yes
+RoxygenNote: 7.1.0
+Roxygen: list(markdown = TRUE)
+VignetteBuilder: knitr
+Depends: R (>= 3.6)
+SystemRequirements: C++17
+LinkingTo:
+    Rcpp
+Imports:
+    Rcpp
+Suggests:
+    covr,
+    knitr,
+    testthat (>= 2.1.0),
+    rmarkdown
+Remotes:
+    RcppCore/Rcpp
