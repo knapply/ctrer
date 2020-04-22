@@ -52,12 +52,6 @@ jobs:
           remotes::install_cran("rcmdcheck")
         shell: Rscript {0}
 
-      - name: Install rgdal with configure
-        if: runner.os == 'macOS'
-        run: |
-          install.packages("rgdal", type = "source", configure.args = "--with-proj-lib=/usr/local/lib/ --with-proj-include=/usr/local/include/")
-        shell: Rscript {0}
-
       - name: Check
         run: rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "warning", check_dir = "check")
         shell: Rscript {0}
@@ -70,6 +64,6 @@ jobs:
           path: check
           
       - name: Test coverage
-        if: matrix.config.os == 'ubuntu-16.04' && matrix.config.r == '3.6'
+        if: matrix.config.os == 'ubuntu-latest' && matrix.config.r == '3.6'
         run: covr::codecov()
         shell: Rscript {0}
