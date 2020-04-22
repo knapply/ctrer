@@ -15,7 +15,7 @@ coverage](https://codecov.io/gh/knapply/ctrer/branch/master/graph/badge.svg)](ht
 [![GitHub last
 commit](https://img.shields.io/github/last-commit/knapply/ctrer.svg)](https://github.com/knapply/ctrer/commits/master)
 [![License: GPL
-v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)3
+v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Depends](https://img.shields.io/badge/Depends-GNU_R%3E=3.6-blue.svg)](https://www.r-project.org/)
 [![Depends](https://img.shields.io/badge/Depends-C++%3E=17-darkblue.svg)](https://en.cppreference.com/w/cpp/17)
 [![CRAN
@@ -31,4 +31,4 @@ status](https://www.r-pkg.org/badges/version/ctrer)](https://cran.r-project.org/
 Dusíková](https://github.com/hanickadot)’s [Compile time regular
 expressions](https://github.com/hanickadot/compile-time-regular-expressions),
 a “Compile time PCRE (almost) compatible regular expression matcher”
-using C++17.
+using C++(\>=)17.
